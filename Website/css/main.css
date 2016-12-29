@@ -1,0 +1,409 @@
+/*problems: brains misalign when window shrinks*/;
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+body {
+	background-color: #679BC2;
+	min-height: 1000px;
+	position: relative;
+}
+header{
+	float: left;
+	width: 40%;
+	
+}
+
+h1{
+	font-family: 'Allerta Stencil', sans-serif;
+	font-style: italic;
+	color: 	#035096;
+	padding-left: 3%;
+	width: 100%;
+	float: left;
+	font-size: 4em;
+
+	text-shadow: 2px 2px 8px #FFC125;
+}
+
+nav{
+	
+	margin-top: 50px; 
+	margin-left: 5%;
+	float: right;
+	width: 55%;
+	color: white;
+	font-size: 1.5em;
+	z-index: 5;
+
+}
+.navOneLine{
+	padding-top: 10px;
+	padding-bottom: 0;
+
+}
+
+#virginiaTransport{
+	float: left;
+	padding-top:0;
+}
+#llc {
+	margin-left: 20px;
+	padding-top: 15px;
+	padding-right: 10px;
+	font-size: .3em;
+	float: left;
+
+}
+
+nav div{
+	font-size: .8em;
+	float: left;
+	width: 17%;
+	text-align: center; 
+	border-right: 1px solid white;
+	padding: 5px;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+}
+
+.navFixed{
+	background-color: #679BC2;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#header-phone{
+	float: right;
+	margin-top: 20px;
+}
+#phone {
+	float:left;
+	width: 12%;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+#phone-number{
+	float: left;
+	font-size: 1.5em;
+}
+
+.fullWidthImg{
+	clear: both; 
+	display: block; 
+	height: 300px;
+	width: 100%;
+}
+
+
+.slideShow{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	
+}
+.mySlides{
+	width: 100%;
+
+}
+
+#road{
+	width: 100%;
+	height: 1200px;
+	position: relative;
+
+}
+#fourTrucks{
+	
+	position: relative;
+	bottom: 650px;	
+}
+
+#intermodal{
+	
+	width: 100%;
+	height: 1200px;
+	position: relative;
+	bottom: 400px;
+}
+
+#government{
+
+	width: 100%;
+	height: 1200px;
+	position: relative;
+	bottom: 500px;
+}
+
+.imgCaption{
+	font-size: 1.5em;
+	background: rgba(255,255,255, .7);
+	position: absolute;
+	color: black;
+	z-index: 4;
+	top: 550px;
+	left: 75%;
+	width: 20%;
+	min-height: 100px;
+	padding: 15px;
+	border-radius: 5%;
+}
+
+#animationArea{
+	display: block;
+	clear: both;
+	background-color: none;
+	height: 100px;
+	position: relative;
+	width: 130%;
+	padding-left: -100px; 
+}
+
+#truck{
+	position: absolute;
+	height: 50px;
+	width: auto;
+	top: 30px;
+	left: -200px;
+
+}
+
+@keyframes drive{
+	
+	57% {left: 0%;}
+	57.5% {left: 15%;}
+	58% {left: 30%;}
+	58.5% {left: 40%;}
+   	59% {left: 50%;}
+   	59.5% {left: 60%;}
+   	60% {left: 70%;}
+   	60.5% {left: 80%;}
+   	61% {left: 90%;}
+   	62% {left: 100%;}
+   	100%{left: 100%}
+}
+
+@-webkit-keyframes drive{
+	57% {left: 0%;}
+	57.5% {left: 15%;}
+	58% {left: 30%;}
+	58.5% {left: 40%;}
+   	59% {left: 50%;}
+   	59.5% {left: 60%;}
+   	60% {left: 70%;}
+   	60.5% {left: 80%;}
+   	61% {left: 90%;}
+   	62% {left: 100%;}
+   	100%{left: 100%}
+}
+
+@-moz-keyframes drive{
+
+	57% {left: 0%;}
+	57.5% {left: 15%;}
+	58% {left: 30%;}
+	58.5% {left: 40%;}
+   	59% {left: 50%;}
+   	59.5% {left: 60%;}
+   	60% {left: 70%;}
+   	60.5% {left: 80%;}
+   	61% {left: 90%;}
+   	62% {left: 100%;}
+   	100%{left: 100%}
+}
+
+.animateDrive{
+	
+	animation: drive ease-in-out 20s infinite;
+	animation-delay: 15s;
+	-webkit-animation-delay: 15s;
+	-moz-animation-delay: 15s;
+}
+
+.link-section{
+	min-height: 300px;
+	width: 100%;
+	float: right;
+}
+
+.floating-box{
+	width: 25%;
+	min-height: 200px;
+	
+	margin-left: 5%;
+	background-color: rgba(255,255,255, .5);
+	float: left;
+	border-radius: 5%;
+	box-shadow: 5px 5px 5px #FFC125;
+}
+
+.box-text{
+	color: black;
+
+}
+
+.sectionBreak{
+	width: 100%;
+	height: 400px;
+	float: 	right;
+	
+	margin-top: 30px;
+	margin-bottom: 	30px;
+	position: 	relative;
+}	
+
+#roadOne{
+	background-image: url("../images/sectionBreaks/Indiana-rural-road.jpg");
+	background-position: 70% 70%;
+	background-attachment: 	fixed;
+
+}
+
+#roadTwo{
+	background-image: url("../images/sectionBreaks/I-90.jpg");
+	background-position: 70% 70%;
+	background-attachment: 	fixed;
+}
+
+#roadThree{
+	background-image: url("../images/sectionBreaks/US_34.jpg");
+	background-position: 70% 70%;
+	background-attachment: 	fixed;
+}
+
+
+
+#contactPic{
+	background-image: url("../images/sectionBreaks/Indiana-rural-road.jpg");
+	background-position: 30% 20%;
+	background-attachment: 	fixed;
+}
+
+#contactBox .box-text{
+	font-size: 1.5em;
+	padding-left: 5%;
+}
+
+#aboutBox .box-text{
+	font-size: 1.5em;
+	padding-left: 5%;
+}
+
+.link-section #shipperInfo{
+	min-height: 200px;
+}
+
+
+#shipperInformationBox{
+float: left;
+width: 35%;
+min-height: 800px;
+/*margin right is high to keep the formatting in place while designing*/
+margin-right: 65%;
+margin-bottom: 50px;
+}
+
+h2{
+	font-size: 2em;
+	font-family: 'Allerta Stencil', sans-serif;
+	font-style: italic;
+	color: #035096;
+	text-shadow: 2px 2px 8px #FFC125;
+
+}
+
+.title{
+
+	margin-left: 5%;
+}
+
+h3{
+	font-size: 	1.5em;
+}
+
+#shipperInformationBox .box-text{
+	margin-top: 0;
+	font-size: 1.5em;
+	padding-left: 5%;
+}
+
+.bullet-blue{
+
+	color: #035096;
+
+}
+#carrierInstructionsBox{
+	float: right;
+	margin-right: 5%;
+}
+
+#hzDesignationBox{
+	float: right;
+	margin-right: 5%;
+}
+
+.link-section p {
+	color: black;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0;
+	width: 55%;
+	min-height: 200px;
+	float: right;
+	font-size: 1.5em;
+}
+
+#question{
+	color: white;
+	width: 25%;
+	margin-top:0;
+	padding-right: 25%;
+	float: right;
+}
+
+form{
+	width:50%;
+	margin-left:50%;
+}
+
+form input{
+	width: 70%;
+	margin-top: 5px;
+}
+form textarea{
+	width: 70%;
+	height: 100px;
+	margin-top: 5px;
+}
+
+form #submit{
+	width: 15%;
+}
+
+#excel{
+	height: 500px;
+	width: 100%;
+
+}
+
+#loadboard{
+	width: 	100%;
+}
