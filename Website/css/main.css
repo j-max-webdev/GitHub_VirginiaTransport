@@ -47,11 +47,7 @@ nav{
 	z-index: 5;
 
 }
-.navOneLine{
-	padding-top: 10px;
-	padding-bottom: 0;
 
-}
 
 #virginiaTransport{
 	float: left;
@@ -165,6 +161,11 @@ nav a{
 	min-height: 100px;
 	padding: 15px;
 	border-radius: 5%;
+}
+
+#roadCaption{
+	left: 45%;
+	width: 50%;
 }
 
 #animationArea{
@@ -302,9 +303,20 @@ nav a{
 	padding-left: 5%;
 }
 
+#aboutText{
+	float: left;
+	min-height: 100px;
+}
+#aboutBox{
+	float: left;	
+	width: 100%;
+	margin-left: 5%;
+}
+
 #aboutBox .box-text{
 	font-size: 1.5em;
 	padding-left: 5%;
+
 }
 
 .link-section #shipperInfo{
@@ -401,9 +413,17 @@ form #submit{
 #excel{
 	height: 500px;
 	width: 100%;
+	pointer-events: none;
 
 }
 
-#loadboard{
+.loadboard{
 	width: 	100%;
+	margin-bottom: 20px;
+}
+
+#loadPhone{
+
+	margin-left: 5%;
+	color: white;
 }
