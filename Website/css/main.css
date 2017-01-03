@@ -330,7 +330,7 @@ nav a{
 
 #logoBox{
 	float:left;
-	width: 25%;
+	min-width: 20%;
 	border-radius: 5%;
 	box-shadow: 5px 5px 5px #FFC125;
 	overflow: hidden;
@@ -482,8 +482,12 @@ form #submit{
 	width: 15%;
 }
 
-#excel{
-	height: 500px;
+#excelLoadboards{
+	margin:5%;
+}
+
+.excel{
+	height: 175px;
 	width: 100%;
 	pointer-events: none;
 
