@@ -30,7 +30,7 @@ h1{
 	font-style: italic;
 	color: 	#035096;
 	padding-left: 3%;
-	width: 100%;
+	width: 97%;
 	float: left;
 	font-size: 4em;
 
@@ -41,6 +41,7 @@ h1{
 	border-top: 2px solid #035096;
 	border-bottom: 2px solid #035096;
 	padding-bottom: 10px;
+	width: 100%;
 }
 
 nav{
@@ -123,7 +124,7 @@ nav a{
 
 .slideShow{
 	width: 100%;
-	height: auto;
+	min-height: auto;
 	overflow: hidden;
 	
 }
@@ -135,6 +136,7 @@ nav a{
 }
 
 #road{
+	position: fixed;
 	width: 100%;
 	height: auto;
 	position: relative;
@@ -148,10 +150,8 @@ nav a{
 
 }
 
-#intermodal{
-	
-	width: 100%;
-	
+#truckLine{
+	width: 100%;	
 	position: relative;
 
 }
@@ -188,9 +188,9 @@ nav a{
 }
 
 #mainCaption{
-	font-size: 1em;
-	margin: 4% 20% 0 17%;
-	width: 60%;
+	font-size: 1.5em;
+	margin: 4% 10% 0 7%;
+	width: 85%;
 	padding: 1%;
 	background-color: rgba(255,255,255, .5);
 	float: left;
@@ -205,8 +205,9 @@ nav a{
 	background-color: none;
 	height: 100px;
 	position: relative;
-	width: 130%;
+	width: 100%;
 	padding-left: -100px; 
+	overflow-x: hidden;
 }
 
 #truck{
@@ -302,21 +303,23 @@ nav a{
 }	
 
 #roadOne{
-	background-image: url("../images/sectionBreaks/Indiana-rural-road.jpg");
-	background-position: 70% 70%;
+	background-image: url("../images/sectionBreaks/white_truck.jpg");
+	background-position: 30% 70%;
 	background-attachment: 	fixed;
+	background-size: 100% auto;
+   
 
 }
 
 #roadTwo{
-	background-image: url("../images/sectionBreaks/I-90.jpg");
-	background-position: 70% 70%;
+	background-image: url("../images/sectionBreaks/US_Map.jpg");
+	background-position: 100% 30%;
 	background-attachment: 	fixed;
 }
 
 #roadThree{
-	background-image: url("../images/sectionBreaks/US_34.jpg");
-	background-position: 70% 70%;
+	background-image: url("../images/sectionBreaks/bridge.jpg");
+	background-position: 70% 50%;
 	background-attachment: 	fixed;
 }
 
@@ -329,11 +332,25 @@ nav a{
 }
 
 #contactBox{
-	min-width: 30%;
+	float: left;
+	min-width: 50%;
+	margin-right: 5%;
+	padding-bottom: 20px;
+}
+
+#contactHeader{
+	margin-bottom: 10px;
 }
 #contactBox .box-text{
+	float: left;
 	font-size: 1.5em;
-	padding-left: 5%;
+	margin-top: 20px;
+	padding: 20px;
+	width: 40%;
+	border: 2px solid #035096;
+	margin: 0;
+	margin-left: 5%;
+
 }
 
 #philosophyText{
@@ -351,19 +368,22 @@ nav a{
 #philosophyBox .box-text{
 	font-size: 1.5em;
 	padding-left: 5%;
+	margin: 0;
 
 }
 #companyInfo{
-	width: 40%;
+	width: 30%;
 	padding: 20px;
-	float: left;
+	margin-top: 20px;
 	min-height: 100px;
 	font-size: 	1em;
+	border: 2px solid #035096;
 }
 
 #logoBox{
 	float:left;
 	min-width: 20%;
+	height: auto;
 	border-radius: 5%;
 	box-shadow: 5px 5px 5px #FFC125;
 	overflow: hidden;
@@ -495,25 +515,32 @@ h3{
 	float: left;
 }
 
+#contactForm{
+	margin-top: 20px;
+	margin-left: 5%;
+	float: left;
+	width: 35%;
+}
 #question{
 	color: white;
-	width: 25%;
+	width: 100%;
 	margin-top:0;
-	padding-right: 25%;
+	
 	float: right;
 }
 
 form{
-	width:50%;
-	margin-left:50%;
+	width:100%;
+	margin-left:0%;
+	float: left
 }
 
 form input{
-	width: 70%;
+	width: 90%;
 	margin-top: 5px;
 }
 form textarea{
-	width: 70%;
+	width: 90%;
 	height: 100px;
 	margin-top: 5px;
 }
@@ -542,4 +569,11 @@ form #submit{
 
 	margin-left: 5%;
 	color: white;
+}
+
+#imageCredits{
+	font-size: .7em;
+	padding-top: 30px;
+	float:left;
+	margin-left: 5%;
 }
