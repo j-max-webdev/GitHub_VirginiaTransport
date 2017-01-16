@@ -21,7 +21,7 @@ body {
 }
 header{
 	float: left;
-	width: 40%;
+	width: 100%;
 	
 }
 
@@ -47,11 +47,11 @@ h1{
 nav{
 	
 	margin-top: 50px; 
-	margin-left: 25%;
+	margin-left: 5%;
 	float: right;
-	width: 35%;
+	width: 90%;
 	color: white;
-	font-size: 1.5em;
+	font-size: 2.0em;
 	z-index: 5;
 }
 
@@ -69,6 +69,10 @@ nav{
 	float: left;
 }
 
+#header-right{
+	width: 60%;
+	float: right;
+}
 nav div{
 	font-size: .8em;
 	float: left;
@@ -98,20 +102,25 @@ nav a{
 	padding: 0;
 	padding-left:20%;
 }
-
-#header-phone{
-	float: right;
-	margin-top: 20px;
+.headerRightFixed{
+	width: 100%;
 }
+
+#phoneHeader{
+	width: 70%;
+	padding:5%;
+	float: right;
+}
+
 #phone {
-	float:left;
-	width: 12%;
+	float:right;
+	width: 5%;
 	padding-right: 10px;
 }
 
 #phone-number{
-	float: left;
-	font-size: 1.5em;
+	float: right;
+	font-size: 1.1em;
 }
 
 .fullWidthImg{
@@ -385,6 +394,9 @@ nav a{
 #logoBox{
 	float:left;
 	width: 30%;
+	margin:2%;
+	margin-left: 5%;
+	margin-bottom: 20px;
 	height: auto;
 	border-radius: 5%;
 	box-shadow: 5px 5px 5px #FFC125;

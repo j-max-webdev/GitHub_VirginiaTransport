@@ -1,11 +1,13 @@
 
 window.onscroll = function() {navFixed()};
 function navFixed(){
-	if (document.body.scrollTop > 116){
+	if (document.body.scrollTop > 400){
 		$("nav").addClass("navFixed");
+        $("#header-right").width("100%");
 	}
-	if (document.body.scrollTop < 116){
+	if (document.body.scrollTop < 400){
 		$("nav").removeClass("navFixed");
+        $("#header-right").width("60%");
 	}
 };
 
