@@ -71,7 +71,7 @@ nav{
 }
 
 #header-right{
-	width: 60%;
+	width: 45%;
 	float: right;
 }
 nav div{
@@ -409,6 +409,16 @@ nav a{
 
 #logo{
 	width: 250px;
+}
+
+#map{
+	width: 10%;
+	float: left;
+	margin-top: 50px;
+}
+#redmap{
+	width: 150px;
+	float: left;
 }
 
 .link-section #shipperInfo{
