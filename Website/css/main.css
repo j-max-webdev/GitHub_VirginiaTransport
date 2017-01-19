@@ -14,7 +14,7 @@
 }
 
 body {
-	background-color: #679BC2;
+	background-color: rgb(220, 220, 220);
 	min-height: 1000px;
 	position: relative;
 	font-family: 'Maven Pro', sans-serif;
@@ -39,8 +39,8 @@ h1{
 }
 
 .sectionHeader{
-	border-top: 2px solid #035096;
-	border-bottom: 2px solid #035096;
+	border-top: 2px solid rgb(229, 65, 50);
+	border-bottom: 2px solid rgb(229, 65, 50);
 	padding-bottom: 10px;
 	width: 100%;
 }
@@ -95,7 +95,7 @@ nav a{
 	border-right: none;
 }
 .navFixed{
-	background-color: #679BC2;
+	background-color: #bebebe;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -206,7 +206,7 @@ nav a{
 	margin: 4% 10% 0 7%;
 	width: 85%;
 	padding: 1%;
-	background-color: rgba(255,255,255, .5);
+	background-color: rgba(255,255,255, .5) ;
 	float: left;
 	border-radius: 5%;
 	box-shadow: 5px 5px 5px rgb(229, 65, 50);
@@ -349,6 +349,7 @@ nav a{
 	float: left;
 	min-width: 50%;
 	margin-right: 5%;
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
@@ -439,7 +440,7 @@ h2{
 	font-size: 2em;
 	font-family: 'Allerta Stencil', sans-serif;
 	font-style: italic;
-	color: #035096;
+	color: black;
 	
 
 }
@@ -461,7 +462,7 @@ h3{
 
 .bullet-blue{
 
-	color: #035096;
+	color: rgb(229, 65, 50);
 
 }
 
@@ -550,7 +551,7 @@ h3{
 	margin-top: 20px;
 	margin-left: 5%;
 	float: left;
-	width: 35%;
+	width: 80%;
 }
 
 #contactEmails{
@@ -572,7 +573,7 @@ h3{
 }
 
 #question{
-	color: white;
+	color: black;
 	width: 100%;
 	margin-top:0;
 	
