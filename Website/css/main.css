@@ -202,14 +202,14 @@ nav a{
 }
 
 #mainCaption{
-	font-size: 1.5em;
-	margin: 4% 10% 0 7%;
+	font-size: 1.2em;
+	margin: 1% 10% 0 7%;
 	width: 85%;
 	padding: 1%;
-	background-color: rgba(255,255,255, .5) ;
+	background-color: white;
 	float: left;
 	border-radius: 5%;
-	box-shadow: 5px 5px 5px rgb(229, 65, 50);
+
 
 }
 
@@ -295,10 +295,10 @@ nav a{
 	min-width: 25%;
 	
 	margin-left: 5%;
-	background-color: rgba(255,255,255, .5);
+	background-color: white;
 	float: left;
 	border-radius: 5%;
-	box-shadow: 5px 5px 5px rgb(229, 65, 50);
+	
 }
 
 .box-text{
@@ -358,7 +358,7 @@ nav a{
 }
 #contactBox .box-text{
 	float: left;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	margin-top: 20px;
 	padding: 20px;
 	width: 40%;
@@ -433,21 +433,23 @@ width: 45%;
 min-height: 800px;
 /*margin right is high to keep the formatting in place while designing*/
 margin-right: 5%;
-margin-bottom: 50px;
+margin-bottom: 10px;
 }
 
 h2{
-	font-size: 2em;
-	font-family: 'Allerta Stencil', sans-serif;
-	font-style: italic;
+	font-size: 1.5em;
+	font-family: 'Maven Pro', sans-serif;
+
 	color: black;
 	
 
 }
 
 .title{
-
 	margin-left: 5%;
+	font-size: 1.2em;
+	font-style: none;
+	margin-bottom: 5px;
 }
 
 h3{
@@ -456,7 +458,7 @@ h3{
 
 #shipperInformationBox .box-text{
 	margin-top: 0;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	padding-left: 5%;
 }
 
@@ -480,13 +482,13 @@ h3{
 	width: 80%;
 	min-height: 100px;
 	float: left;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 .pBox{
-	background-color: rgba(255,255,255, .5);
+	background-color: white;
 	border-radius: 5%;
-	box-shadow: 5px 5px 5px rgb(229, 65, 50);;
+
 
 }
 
@@ -507,19 +509,18 @@ h3{
 }
 #shipperP1{
 	width: 30%;
-	padding: 20px;
+	
 	float: left;
 }
 
 #shipperP2{
 	width: 30%;
-	padding: 20px;
+	
 	float: left;
 }
 
 #shipperP3{
 	width: 30%;
-	padding: 20px;
 	float: left;
 }
 
