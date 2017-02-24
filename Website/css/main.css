@@ -34,6 +34,7 @@ h1{
 	width: 97%;
 	float: left;
 	font-size: 4em;
+	margin-bottom: 0;
 
 	text-shadow: 2px 2px 8px rgb(229, 65, 50);
 }
@@ -47,7 +48,7 @@ h1{
 
 nav{
 	
-	margin-top: 50px; 
+	margin-top: 10px; 
 	margin-left: 5%;
 	float: right;
 	
@@ -323,7 +324,7 @@ nav a{
 	height: 400px;
 	float: 	right;
 	
-	margin-top: 30px;
+	margin-top: 0;
 	margin-bottom: 	30px;
 	position: 	relative;
 }	
@@ -425,7 +426,7 @@ nav a{
 }
 
 #map{
-	width: 10%;
+	width: 20%;
 	float: left;
 	margin-top: 50px;
 }
@@ -462,6 +463,14 @@ h2{
 	font-size: 1.2em;
 	font-style: none;
 	margin-bottom: 5px;
+}
+
+#opps{
+	margin-bottom: 2px;
+	min-height: 20px;
+}
+#inquiries{
+	float: left;
 }
 
 h3{
