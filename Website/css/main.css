@@ -1,4 +1,3 @@
-/*problems: brains misalign when window shrinks*/;
 
 * {
     box-sizing: border-box;
@@ -39,49 +38,24 @@ h1{
 	text-shadow: 2px 2px 8px rgb(229, 65, 50);
 }
 
-.sectionHeader{
-	border-top: 2px solid rgb(229, 65, 50);
-	border-bottom: 2px solid rgb(229, 65, 50);
-	padding-bottom: 10px;
-	width: 100%;
-}
-
 nav{
-	
-	margin-top: 10px; 
-	margin-left: 5%;
-	float: right;
+	width: 	100%;
+	height: 50px;
+	float:left;
 	
 	color: rgb(229, 65, 50);
 	font-size: 2.0em;
 	z-index: 5;
 }
 
-
-#virginiaTransport{
-	float: left;
-	padding-top:0;
-}
-
-#llc {
-	margin-left: 20px;
-	padding-top: 15px;
-	padding-right: 10px;
-	font-size: .3em;
-	float: left;
-}
-
-#header-right{
-	width: 45%;
-	float: right;
-}
 nav div{
-	font-size: .8em;
+	font-size: .7em;
 	float: left;
-	min-width: 10%;
-	height: 20px;
+	width: 23%;
+	height: 30px;
 	text-align: center; 
 	border-right: 2px solid rgb(229, 65, 50);
+	border-bottom: 2px solid rgb(229, 65, 50);
 	padding: 0 5px 5px 5px;
 	padding-bottom: 10px;
 }
@@ -95,6 +69,20 @@ nav a{
 #lastNav{
 	border-right: none;
 }
+
+
+
+#twitterNav{
+	width: 8%;
+	border-right: none;
+	
+}
+#twitter{
+	float:left;
+	margin-top: 2%;
+}
+
+
 .navFixed{
 	background-color: rgb(245, 245, 245);
 	width: 100%;
@@ -102,35 +90,111 @@ nav a{
 	top: 0;
 	margin: 0;
 	padding: 0;
-	padding-left:20%;
+
 }
+
+
+.sectionHeader{
+	border-top: 2px solid rgb(229, 65, 50);
+	border-bottom: 2px solid rgb(229, 65, 50);
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+
+#topbar{
+	float: left;
+	height: 175px;
+	width:100%;
+
+}
+
+#virginiaTransport{
+	float: left;
+	padding-top:0;
+}
+
+#logoBox{
+	float:left;
+	width: 30%;
+	margin-left: 5%;
+	height: auto;
+	border-radius: 5%;
+	
+}
+
+#logo{
+	width: 250px;
+}
+
+#map{
+	width: 15%;
+	float: left;
+	margin-top: 50px;
+}
+#redmap{
+	width: 150px;
+	margin: 0 30% 0 30%;
+	float: left;
+}
+
+
+
+#socialMedia{
+	width: 35%;
+	margin-top: 10px;
+	margin-right: 3%;
+	float: right;
+}
+
+
+
+#hubzone{
+	margin-top: 10%;
+	width:150px;
+	float:right;
+}
+
+#sba{
+	margin-top: 10%;
+	width:150px;
+	float: right;
+}
+
+#header-right{
+	width: 45%;
+	float: right;
+}
+
+#topbar_two{
+	width: 100%;
+	height: 50px;
+}
+
+
 .headerRightFixed{
 	width: 100%;
 }
 
 #phoneHeader{
 	width: 100%;
-	padding:2%;
+	margin-bottom: 10px;
 	float: right;
 }
 
 .phone-pic {
 	float:right;
-	width: 20px;
+	width: 30px;
 	padding-right: 10px;
 }
 
 .phone-number{
 	float: right;
+	padding-right: 10px;
 	font-size: 1.1em;
 }
 
-#socialMedia{
-	width: 10%;
-	margin-right:10%;
-	margin-top: 10px;
-	float: right;
-}
+
 #faxNumber{
 	padding-right: 2%;
 }
@@ -410,30 +474,7 @@ nav a{
 	border-radius: 5%;
 }
 
-#logoBox{
-	float:left;
-	width: 30%;
-	margin-left: 5%;
-	height: auto;
-	border-radius: 5%;
-	
 
-
-}
-
-#logo{
-	width: 250px;
-}
-
-#map{
-	width: 20%;
-	float: left;
-	margin-top: 50px;
-}
-#redmap{
-	width: 150px;
-	float: left;
-}
 
 .link-section #shipperInfo{
 	min-height: 200px;
@@ -626,16 +667,24 @@ form #submit{
 	margin:5%;
 }
 
+.excel_loadboards{
+	height: 400px;
+	width: 1400px;
+	overflow-y: hidden;
+}
+
 .excel{
 	height: 175px;
 	width: 100%;
 	pointer-events: none;
+
 
 }
 
 .loadboard{
 	width: 	100%;
 	margin-bottom: 20px;
+	float:left;
 }
 
 #loadPhone{
@@ -654,19 +703,37 @@ form #submit{
 
 
 @media only screen and (max-width:1000px){
+	nav div{
+		font-size: .5em;
+		padding-top: 5px;
+	}
+
 	#map{
 		display: none;
 	}
+	
+	#socialMedia{
+		width: 50%;
+	
 	#header-right{
 		width:60%;
 	}
+
 	#phoneHeader{
-		width: 200px;
+		width: 100%;
 	}
+
+
 
 }
 
 @media only screen and (max-width:500px){
+	
+	nav div{
+		font-size: .4em;
+		padding-top: 5px;
+	}
+
 	#map{
 		display: none;
 	}

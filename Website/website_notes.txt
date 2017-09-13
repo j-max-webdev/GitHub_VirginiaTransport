@@ -1,0 +1,74 @@
+check mark alt code: alt+251 √
+alt + 127 = ⌂ = to do
+	
+		
+	Index
+		Map
+				put 30% margins on the sides to center it.
+						Not sure why it's 30%, since that math doesn't add up.
+		Logos
+			HUBzone
+			SBA
+				 √ When shrunk, the bird moves under the sba.
+					Fix this through media queries.
+						when map disappears, then make social media block and the logo equal 100%
+				HUBzone jumps on top of SBA when the window shrinks to a certain point.
+					⌂
+		Nav Bar
+			√ put at top of page
+			Gets squished when page is compressed.	
+				when it gets squished, change the font size.
+					Use media quiries
+			√ Move Twitter to the Nav Bar
+		Phone numbers
+			made the phone division 100%, on both regular page and media.
+
+
+		Java Script
+			Scroll Function
+				√ On scroll, nav bar full width.
+
+	Loadboards
+		format
+			move the Flatbed/Van/Reefer
+		Three separate boards
+			Flatbed
+				difficulty with loadboard access
+					logged into Sharepoint online, got a link from the file to view.
+				difficulty logging in with iPhone
+			Van
+			Reefer
+
+		
+		nav-bar
+			Home button
+			link to phone number
+				to book loads.
+			link to email
+			last nav
+				fix the right border.
+		iframe	
+			
+			Cannot get permissions right for website guest viewers, which is essential.
+				worked with Godaddy on 6/20/17 to get the permissions
+					Is viewable via Joel's computer
+					Not viewable through an external user
+					The answer was to upload the file to OneDrive, not SharePoint.
+
+			link to each load
+				-autopopulates the information.
+					-http://www.web-source.net/web_design_tips/html_auto_fill_email_subject.htm#.WUgavGjyuUk
+				=HYPERLINK("mailto:dispatch@virginiatransport.net&subject="&C10&" to "&E10&" - Date: "&O10&"&body=WRITE MESSAGE HERE OR LEAVE UNCHANGED%0A%0ALoad Details:%0A"&C10&" to "&E10&"%0A"&O10&"%0ARate: "&H10&"")	
+				⌂ Need to change linking text to "EMAIL FOR LOAD"
+					This puts "Click to Email" in the body of the email.
+		javascript
+			Make the sticky nav start earlier on scroll,
+
+		Upload
+			flatbed_loadboards
+			
+
+	Clean up
+		Images/Icons
+		
+

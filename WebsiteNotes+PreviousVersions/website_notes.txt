@@ -1,0 +1,27 @@
+check mark alt code: alt+251 √
+alt + 127 = ⌂ = to do
+	
+		Map
+				put 30% margins on the sides to center it.
+						Not sure why it's 30%, since that math doesn't add up.
+		Logos
+			HUBzone
+			SBA
+				 √ When shrunk, the bird moves under the sba.
+					Fix this through media queries.
+						when map disappears, then make social media block and the logo equal 100%
+				HUBzone jumps on top of SBA when the window shrinks to a certain point.
+					⌂
+		Nav Bar
+			√ put at top of page
+			Gets squished when page is compressed.	
+				when it gets squished, change the font size.
+					Use media quiries
+			√ Move Twitter to the Nav Bar
+		Phone numbers
+			made the phone division 100%, on both regular page and media.
+
+
+	Java Script
+		Scroll Function
+			√ On scroll, nav bar full width.
